@@ -5,13 +5,12 @@ module.exports = {
       // extensions: [],
       //路径别名
       alias: {
-        '@': 'src',
-        'assert': '@/asset',
+        'assets': '@/assets',
         'common': '@/common',
         'components': '@/components',
         'network': '@/network',
-        'router': '@/router',
-        'views':'@/views',
+        // 'router': '@/router', /*坑：千万不要配router的别名哇*/
+        'views':'@/views'
       }
     }
 
