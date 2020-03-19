@@ -8,13 +8,10 @@
       <slot name="item-icon-active"></slot>
     </div>
 
-    <!--<div :class="{active:isActive}">-->
     <div :style=activeStyle>
       <slot name="item-text"></slot>
     </div>
 
-    <!-- <img src="../../assets/img/tabbar/home.svg" alt="">-->
-    <!-- <div>首页</div>-->
   </div>
 </template>
 
@@ -43,7 +40,7 @@
     },
     methods: {
       itemClick() {
-        console.log('itemClick');
+        // console.log('itemClick');
         this.$router.replace(this.path)
       }
     }

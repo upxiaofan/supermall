@@ -2,7 +2,6 @@ module.exports = {
   // 配置别名
   configureWebpack: {
     resolve: {
-      // extensions: [],
       //路径别名
       alias: {
         'assets': '@/assets',

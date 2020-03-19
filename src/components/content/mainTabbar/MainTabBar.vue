@@ -1,6 +1,5 @@
 <template>
   <tab-bar>
-<!--    <tab-bar-item path="/home" active-color="blue">-->
     <tab-bar-item path="/home" >
       <!-- 注意：要对路径进行重新分装；要通过别名来实现,同同时主意别名的添加方式    -->
       <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="">
